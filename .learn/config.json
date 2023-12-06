@@ -1,0 +1,1243 @@
+{
+    "config": {
+        "port": 3000,
+        "editor": {
+            "mode": "preview",
+            "agent": "vscode",
+            "version": "1.0.73"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "http://localhost:3000",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "node",
+        "autoPlay": true,
+        "projectType": "tutorial",
+        "grading": "incremental",
+        "exercisesPath": ".learn/exercises",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "title": "Your first unit tests with Javascript's Jest Framework",
+        "slug": "unit-test-with-jest",
+        "status": "draft",
+        "solution": "https://github.com/breatheco-de/exercise-unit-test-with-jest/tree/solution",
+        "repository": "https://github.com/breatheco-de/exercise-unit-test-with-jest",
+        "skills": [
+            "unit-testing",
+            "test-driven-dev"
+        ],
+        "difficulty": "easy",
+        "preview": "https://github.com/breatheco-de/exercise-unit-test-with-jest/blob/main/.learn/assets/preview.jpeg?raw=true",
+        "duration": 16,
+        "videoSolutions": false,
+        "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+        "technologies": [
+            "javascript",
+            "jest",
+            "unit testing"
+        ],
+        "description": "Give a series of exercises and solutions, create the unit tests to automaticaly grade the given solutions",
+        "translations": []
+    },
+    "address": "http://localhost",
+    "currentExercise": "11-homework",
+    "exercises": [
+        {
+            "position": 0,
+            "path": ".learn/exercises/00-welcome",
+            "slug": "00-welcome",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "00-welcome",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": ".learn/exercises/01-setup-our-project",
+            "slug": "01-setup-our-project",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "01-setup-our-project",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 2,
+            "path": ".learn/exercises/02-choosing-your-framework",
+            "slug": "02-choosing-your-framework",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "02-choosing-your-framework",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./package.json",
+                    "name": "package.json",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 3,
+            "path": ".learn/exercises/03-entry-point",
+            "slug": "03-entry-point",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "03-entry-point",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./node_modules",
+                    "name": "node_modules",
+                    "hidden": true
+                },
+                {
+                    "path": "./package-lock.json",
+                    "name": "package-lock.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./package.json",
+                    "name": "package.json",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 4,
+            "path": ".learn/exercises/04-our-first-function",
+            "slug": "04-our-first-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "04-our-first-function",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./node_modules",
+                    "name": "node_modules",
+                    "hidden": true
+                },
+                {
+                    "path": "./package-lock.json",
+                    "name": "package-lock.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./package.json",
+                    "name": "package.json",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 5,
+            "path": ".learn/exercises/05-Test-file",
+            "slug": "05-Test-file",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "05-Test-file",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./node_modules",
+                    "name": "node_modules",
+                    "hidden": true
+                },
+                {
+                    "path": "./package-lock.json",
+                    "name": "package-lock.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./package.json",
+                    "name": "package.json",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 6,
+            "path": ".learn/exercises/06-your-first-test",
+            "slug": "06-your-first-test",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "06-your-first-test",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./node_modules",
+                    "name": "node_modules",
+                    "hidden": true
+                },
+                {
+                    "path": "./package-lock.json",
+                    "name": "package-lock.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./package.json",
+                    "name": "package.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 7,
+            "path": ".learn/exercises/07-running-the-test",
+            "slug": "07-running-the-test",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "07-running-the-test",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./node_modules",
+                    "name": "node_modules",
+                    "hidden": true
+                },
+                {
+                    "path": "./package-lock.json",
+                    "name": "package-lock.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./package.json",
+                    "name": "package.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 8,
+            "path": ".learn/exercises/07.1-analysing-the-test",
+            "slug": "07.1-analysing-the-test",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "07.1-analysing-the-test",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./node_modules",
+                    "name": "node_modules",
+                    "hidden": true
+                },
+                {
+                    "path": "./package-lock.json",
+                    "name": "package-lock.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./package.json",
+                    "name": "package.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 9,
+            "path": ".learn/exercises/07.2-second-analysis",
+            "slug": "07.2-second-analysis",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "07.2-second-analysis",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./node_modules",
+                    "name": "node_modules",
+                    "hidden": true
+                },
+                {
+                    "path": "./package-lock.json",
+                    "name": "package-lock.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./package.json",
+                    "name": "package.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 10,
+            "path": ".learn/exercises/08-planning",
+            "slug": "08-planning",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "08-planning",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./node_modules",
+                    "name": "node_modules",
+                    "hidden": true
+                },
+                {
+                    "path": "./package-lock.json",
+                    "name": "package-lock.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./package.json",
+                    "name": "package.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 11,
+            "path": ".learn/exercises/09-the-first-test",
+            "slug": "09-the-first-test",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "09-the-first-test",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./node_modules",
+                    "name": "node_modules",
+                    "hidden": true
+                },
+                {
+                    "path": "./package-lock.json",
+                    "name": "package-lock.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./package.json",
+                    "name": "package.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 12,
+            "path": ".learn/exercises/10-implementing-the-function",
+            "slug": "10-implementing-the-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "10-implementing-the-function",
+            "graded": false,
+            "files": [
+                {
+                    "path": "./.devcontainer",
+                    "name": ".devcontainer",
+                    "hidden": true
+                },
+                {
+                    "path": "./.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": "./.github",
+                    "name": ".github",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitignore",
+                    "name": ".gitignore",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.Dockerfile",
+                    "name": ".gitpod.Dockerfile",
+                    "hidden": true
+                },
+                {
+                    "path": "./.gitpod.yml",
+                    "name": ".gitpod.yml",
+                    "hidden": true
+                },
+                {
+                    "path": "./.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": "./.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "./app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "./learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./node_modules",
+                    "name": "node_modules",
+                    "hidden": true
+                },
+                {
+                    "path": "./package-lock.json",
+                    "name": "package-lock.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./package.json",
+                    "name": "package.json",
+                    "hidden": true
+                },
+                {
+                    "path": "./test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 13,
+            "path": ".learn/exercises/11-homework",
+            "slug": "11-homework",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "11-homework",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/11-homework/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/11-homework/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
+    ],
+    "session": 5931439088860688000
+}

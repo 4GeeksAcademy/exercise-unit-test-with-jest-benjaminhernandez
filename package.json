@@ -1,0 +1,23 @@
+{
+  "name": "exercise-unit-test-with-jest-benjaminhernandez",
+  "version": "1.0.0",
+  "description": "<!-- hide --> # Prueba Unitaria con Jest <!-- endhide -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4GeeksAcademy/exercise-unit-test-with-jest-benjaminhernandez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4GeeksAcademy/exercise-unit-test-with-jest-benjaminhernandez/issues"
+  },
+  "homepage": "https://github.com/4GeeksAcademy/exercise-unit-test-with-jest-benjaminhernandez#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
